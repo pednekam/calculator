@@ -16,5 +16,11 @@
         </dependency>
     </dependencies>
 
-
+    <distributionManagement>
+        <repository>
+            <id>basic.calculator</id>
+            <name>Basic Calculator</name>
+            <url>file:///home/pednekam/calculator</url>
+        </repository>
+    </distributionManagement>
 </project>
