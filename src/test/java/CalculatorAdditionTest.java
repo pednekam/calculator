@@ -35,7 +35,7 @@ public class CalculatorAdditionTest {
         BasicCalculator baseCalculator = new BasicCalculator();
         double a =10.20;
         double b=20.22;
-        double result = baseCalculator.addNumbers(a, b) ;
-        Assert.assertTrue("Numbers do not match", result==30.419999999999998);
+        long result = Math.round(baseCalculator.addNumbers(a, b)) ;
+        Assert.assertEquals(result, 30);
     }
 }
