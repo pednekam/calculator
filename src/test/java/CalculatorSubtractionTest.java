@@ -10,7 +10,7 @@ public class CalculatorSubtractionTest {
         int a =10;
         int b=50;
         int result = baseCalculator.subtractNumbers(a, b);
-        Assert.assertEquals(-10, result);
+        Assert.assertEquals(-40, result);
     }
 
 
